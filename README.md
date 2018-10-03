@@ -6,10 +6,10 @@ Assemble the above source to an object file, hello_world.o, in the Mach-O format
 
 Link the object file to produce the hello_world executable.
 
-```$ ld -o hello -e mystart hello.o```
+```$ ld -o hello_world -e main hello_world.o```
 
 Run the executable.
 
-```$ ./hello```
+```$ ./hello_world```
 
 hello, world!
